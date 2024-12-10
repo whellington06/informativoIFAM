@@ -12,6 +12,7 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: rgba(0,0,0,0.527)2px 0px 10px;
+    position: ;
 
 
 }
@@ -31,7 +32,57 @@ header ul li{
     text-align: center;
 }
 
-header ul li:hover{
+header ul li a:hover{
     color: rgb(25, 231, 25);
     font-weight: bold;
 }
+header ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+    margin: 20px 0px;
+
+}
+.banner-imagem{
+    border: solid white 10px;
+    box-shadow: rgb(0,0,0,0.5)0px 0px 10px;
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.search-container{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.search-container h1{
+    color: rgb(255,255,255);
+    text-shadow: rgb(0,0,0,0.4)5px 5px 2px;
+    font-size: 3.0em;
+    text-align: center;
+}
+
+main{
+    width: 950px;
+    margin: auto;
+}
+main h2,p{
+    margin-bottom: 100px;
+    
+}
+main p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+section{
+    height: 100vh;
+}
+
+
